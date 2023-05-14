@@ -1,6 +1,6 @@
 import axios from 'axios';
-import dotnev from 'dotnev'
-dotnev.config();
+import dotenv from 'dotenv';
+dotenv.config();
 // axios.defaults.baseURL = 'https://localhost:7271/items';
 // axios.defaults.baseURL = process.env.apiUrl;
 // axios.create();
